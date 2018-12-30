@@ -17,7 +17,7 @@ class Game:
     self.current_monster_y = random.randint(0,9)
     self.dimension = dimension
     self.score = 0
-    self.brick = "\33[;31mX\33[;0m"
+    self.brick = "\33[;31m'\33[;0m"
     self.snake = "\33[;32mO\33[;0m"
     self.monster = "@"
     self.board = []
